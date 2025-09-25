@@ -1,0 +1,253 @@
+/* Centralizar o vídeo do YouTube na seção de hobbies */
+.hobbies-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+.softskills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 18px;
+}
+.softskill-card {
+    background: linear-gradient(120deg, #fff 70%, #f3e5f5 100%);
+    border: 2px solid #f357a820;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px #7b2ff210;
+    padding: 20px 26px 16px 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+    max-width: 200px;
+    transition: box-shadow 0.2s, border 0.2s, background 0.2s;
+}
+.softskill-card:hover {
+    box-shadow: 0 8px 32px #f357a820;
+    border: 2px solid #7b2ff2;
+    background: linear-gradient(120deg, #f3e5f5 60%, #fff 100%);
+}
+.softskill-icon {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.softskill-card span:last-child {
+    font-weight: 600;
+    color: #f357a8;
+    text-align: center;
+    font-size: 1.12em;
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+.hobbies-video video {
+    border-radius: 14px;
+    box-shadow: 0 2px 12px #0002;
+    background: #f0f4fa;
+}
+.hobbies-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 18px;
+    justify-content: center;
+}
+.hobbies-gallery img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #0001;
+    background: #f0f4fa;
+}
+.icon-contact {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+}
+nav {
+    background: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 0 18px 0;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    gap: 0 12px;
+}
+nav a {
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.08em;
+    letter-spacing: 0.5px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+nav a:hover, nav a:focus {
+    background: #fff2;
+    color: #f357a8;
+    text-decoration: none;
+}
+.linha-separadora {
+    border: none;
+    border-bottom: 2px solid #1a73e8;
+    margin: 18px auto 24px auto;
+    width: 60%;
+    opacity: 0.7;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #f7e8ff 0%, #e0f7fa 100%);
+    color: #2d133b;
+}
+.skill-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.percent {
+    font-size: 0.98em;
+    color: #1a73e8;
+    font-weight: 600;
+    min-width: 38px;
+    text-align: right;
+}
+.skills-progress {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 12px;
+}
+.skill-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.skill-bar span {
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: #f357a8;
+}
+.progress {
+    background: #f3e5f5;
+    border-radius: 8px;
+    height: 18px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 1px 4px #7b2ff210;
+}
+.progress-fill {
+    background: linear-gradient(90deg, #7b2ff2 60%, #f357a8 100%);
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    transition: width 0.7s cubic-bezier(.4,1.4,.6,1);
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #222;
+}
+header {
+    background: linear-gradient(90deg, #2d133b 0%, #1a237e 100%);
+    color: #fff;
+    padding: 38px 0 22px 0;
+    text-align: center;
+    box-shadow: 0 4px 24px #7b2ff220;
+}
+nav a {
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+.section {
+    background: linear-gradient(120deg, #fff 80%, #f3e5f5 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #7b2ff210;
+    margin-bottom: 32px;
+    padding: 32px 24px 28px 24px;
+    border: 2px solid #f357a820;
+}
+h1 {
+    margin-bottom: 8px;
+}
+h2 {
+    color: #7b2ff2;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: 0 2px 8px #f357a820;
+}
+ul, .skills {
+    padding-left: 20px;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.skill {
+    background: linear-gradient(90deg, #f357a8 0%, #7b2ff2 100%);
+    color: #fff;
+    border-radius: 16px;
+    padding: 6px 16px;
+    font-size: 1em;
+    display: inline-block;
+    font-weight: 600;
+    box-shadow: 0 2px 8px #f357a820;
+}
+footer {
+    text-align: center;
+    padding: 18px 0 12px 0;
+    background: linear-gradient(90deg, #7b2ff2 0%, #f357a8 100%);
+    color: #fff;
+    margin-top: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.08em;
+    box-shadow: 0 -2px 16px #7b2ff220;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f357a8;
+    box-shadow: 0 4px 24px #7b2ff220;
+    margin: 18px auto 22px auto;
+    display: block;
+    background: #fff;
+}
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+.contact-list li {
+    margin-bottom: 8px;
+}
+@media (max-width: 600px) {
+    main { padding: 0 4px; }
+    .section { padding: 12px; }
+}
